@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="Enter the user id..." >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextID"
+        android:layout_below="@+id/editTextID"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="62dp"
+        android:onClick="onClickEnter"
+        android:text="Enter" />
+
+</RelativeLayout>

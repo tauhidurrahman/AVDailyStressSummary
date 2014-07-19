@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AVDailyStressSummary</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_calendar_view">CalendarViewActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+
+</resources>
